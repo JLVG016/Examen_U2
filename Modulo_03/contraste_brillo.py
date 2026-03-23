@@ -14,7 +14,7 @@ class Ventana(tk.Tk):
         self.geometry("1100x500")
         self.protocol("WM_DELETE_WINDOW", self.cierre)
 
-        self.ruta_imagen = "Modulo_03/img/cameraman.png"
+        self.ruta_imagen = "Modulo_03/img/memphis.jpg"
 
         self.imagen = cv2.imread(self.ruta_imagen)
         self.h, self.w = self.imagen.shape[0:2]
